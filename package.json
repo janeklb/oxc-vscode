@@ -146,7 +146,7 @@
           "scope": "resource",
           "type": "boolean",
           "default": false,
-          "markdownDescription": "Start the language server only when a `.oxlintrc.json(c)` or `oxlint.config.ts` file exists in one of the workspaces."
+          "markdownDescription": "Start the language server only when a `.oxlintrc.json(c)` or `oxlint.config.js`, `oxlint.config.ts`, `oxlint.config.mjs`, or `oxlint.config.mts` file exists in one of the workspaces."
         },
         "oxc.trace.server": {
           "type": "string",
